@@ -16,4 +16,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
   s.source_files = '.'
+  s.framework  = 'CoreData'
 end
