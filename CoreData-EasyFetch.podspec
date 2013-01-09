@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CoreData-EasyFetch"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "CoreData-EasyFetch is a category for CoreData to make fetching data easy."
   s.description  = <<-DESC
   This is an Objective-C category for Core Data (`NSManagedObjectContext
