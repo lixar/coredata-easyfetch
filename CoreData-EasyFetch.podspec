@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/lixar/coredata-easyfetch.git", :tag => s.version.to_s }
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
-  s.source_files = '.'
+  s.source_files = '*.{h,m}'
   s.framework  = 'CoreData'
 end
